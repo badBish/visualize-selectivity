@@ -23,7 +23,7 @@ for i in range (len(fxn_groups)):
 
 # Read in Excel sheet  
 # Select 2 gases of interest 
-df1 = pd.read_excel('/Users/uche/Box Sync/1.Research/1.Reports/STAM17/Manuscript/Final/Omega/GitHub/STAM-17-OEt_Adsorption_Energies.xlsx',sheet_name="C2H2")
+df1 = pd.read_excel('STAM-17-OEt_Adsorption_Energies.xlsx',sheet_name="C2H2")
 gas1_F=df1.iloc[4:9,2].values
 gas1_CN=df1.iloc[11:16,2].values
 gas1_CH3=df1.iloc[18:23,2].values
@@ -31,7 +31,7 @@ gas1_COOH=df1.iloc[25:30,2].values
 gas1_NH2=df1.iloc[32:37,2].values
 gas1_OH=df1.iloc[39:44,2].values
 
-df2 = pd.read_excel('/Users/uche/Box Sync/1.Research/1.Reports/STAM17/Manuscript/Final/Omega/GitHub/STAM-17-OEt_Adsorption_Energies.xlsx',sheet_name="C2H4")
+df2 = pd.read_excel('STAM-17-OEt_Adsorption_Energies.xlsx',sheet_name="C2H4")
 gas2_F=df2.iloc[4:9,2].values
 gas2_CN=df2.iloc[11:16,2].values
 gas2_CH3=df2.iloc[18:23,2].values
